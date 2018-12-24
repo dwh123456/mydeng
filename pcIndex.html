@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>邓的主页</title>
+    <link rel="shortcut icon" href="img/deng.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/pc/commonality.css"><!--公共样式 -->
+    <link rel="stylesheet" href="css/pc/reset.css"><!--重置默认样式 -->
+    <link rel="stylesheet" href="css/pc/index.css"><!--主文件样式 -->
+
+    <style>
+        body {
+            font-size: 13px;
+            color:floralwhite;
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+
+        /* 总版心 */
+        .adv {
+            margin: 0 auto;
+            width: 1000px;
+            height: 100%;
+            /* border: 1px solid #cccccc; */
+            display: flex;
+            padding: 20px;
+            margin-top: 10px;
+            background-color: darkkhaki;
+           
+        }
+
+        /* 左边个人区 */
+        .adv aside {
+            flex: 2;
+            /* border-right: 1px solid rgb(35, 209, 240); */
+            margin-right: 10px;
+            background-color: #4B4B4B;
+        }
+        /* copy版权  */
+        .adv aside .copy {
+            margin-top: 30px;
+            font-size: 10px;
+            text-align: center;
+        }
+
+        .adv aside .a1 {
+            width: 100%;
+            height: 200px;
+            background-color: #4B4B4B;
+
+        }
+        /* 373737 */
+
+        .adv aside .a1 p {
+            /* margin: 0 auto; */
+            padding-left: 30px;
+            font-size: 10px;
+        }
+
+        .adv aside .a1 p:nth-child(1) {
+            font-size: 22px;
+            padding-top: 70px;
+        }
+
+        .adv aside .classif {
+            margin-top: 10px;
+        }
+
+        .adv aside .classif li {
+            margin-top: 10px;
+            padding-left: 10px; 
+            font-size: 15px;
+            background-color: #373737;
+        }
+
+        .adv aside .classif2 {
+            margin-top: 20px;
+            background-color: #373737;
+        } 
+
+        .adv aside .classif2 p {
+            text-align: center;
+            padding-top: 5px;
+        }
+
+        .adv aside .classif2 p span:nth-child(1) {
+            /* color: aquamarine; */
+            border-bottom:2px solid #c7fa0f;
+        }
+
+        /* 目录 */
+        .adv aside .catalogue {
+            padding-left: 10px;
+            
+        }
+
+        .adv aside .catalogue a {
+            width: 180px;
+            display: block;
+            color: antiquewhite;
+            text-decoration: none;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            margin-top: 10px;
+        }
+
+        /* 右边文章区 */
+        .adv section {
+            flex: 8;
+            padding-left: 10px;
+        }
+
+        
+
+    </style>
+</head>
+<body>
+    <div class="adv">
+        <!-- 侧边栏 -->
+        <aside>
+            <div class="a1">
+                <p>myDeng博客</p>
+                <p>联系:1733512710@qq.com</p>
+            </div>
+            <div class="classif" id="classif">
+                <ul>
+                    <li>首页</li>
+                    <li>前端篇</li>
+                    <li>旅行篇</li>
+                    <li>摄影篇</li>
+                    <li>日记篇</li>
+                    <li>其他</li>
+                </ul>
+            </div>
+            <!-- <hr style="color:rgb(233, 163, 22)" /> -->
+            <div class="classif2">
+                <p>
+                    <span>该篇目录</span> |
+                    <span>该篇文章</span>
+                </p>
+                <div class="catalogue" id="catalogue">
+                    <ul>
+                        <li><a href="#">1.今天6今天6今天6今天6今天6今天6今天6今天6今天</a></li>
+                        <li><a href="#">1.今天6今天6今天6今天6今天6今天6今天6今天6今天</a></li>
+                        <li><a href="#">1.今天6今天6今天6今天6今天6今天6今天6今天6今天</a></li>
+                        <li><a href="#">1.今天6今天6今天6今天6今天6今天6今天6今天6今天</a></li>
+                        <li><a href="#">1.今天6今天6今天6今天6今天6今天6今天6今天6今天</a></li>
+                        <li><a href="#">1.今天6今天6今天6今天6今天6今天6今天6今天6今天</a></li>
+                        <li><a href="#">1.今天6今天6今天6今天6今天6今天6今天6今天6今天</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- copy版权 -->
+            <p class="copy">&copy;未注册</p>
+        </aside>
+    
+        <span style="border: 0.5px solid #ccc;"></span>
+
+        <!-- 主题区 -->
+        <section>
+            <p>文章</p>
+        </section>
+    </div>
+</body>
+</html>
